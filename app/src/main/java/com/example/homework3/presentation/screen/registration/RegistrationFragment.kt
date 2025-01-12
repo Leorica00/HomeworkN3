@@ -9,7 +9,6 @@ import androidx.navigation.findNavController
 import com.example.homework3.R
 import com.example.homework3.databinding.FragmentRegistrationBinding
 import com.example.homework3.presentation.base.BaseFragment
-import com.example.homework3.presentation.state.LoginState
 import com.example.homework3.presentation.state.RegistrationState
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
