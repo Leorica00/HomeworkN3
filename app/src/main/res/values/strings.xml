@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Homework3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="error_client">Client Error</string>
+    <string name="error_server">Server Error</string>
+    <string name="error_http">Http Error</string>
+    <string name="error_timeout">Timeout Error</string>
+    <string name="unexpected_error">Unexpected Error</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="messages">Messages</string>
+    <string name="wrong_creds">username or password is incorrect. please try again.</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="next">Next</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="not_an_user_register_below">Not an user? Register below.</string>
+    <string name="congrats">Congrats!!!</string>
 </resources>
