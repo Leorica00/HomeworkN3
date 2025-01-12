@@ -10,6 +10,7 @@ import com.example.homework3.R
 import com.example.homework3.databinding.FragmentRegistrationBinding
 import com.example.homework3.presentation.base.BaseFragment
 import com.example.homework3.presentation.state.LoginState
+import com.example.homework3.presentation.state.RegistrationState
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -53,7 +54,7 @@ class RegistrationFragment : BaseFragment<FragmentRegistrationBinding>(FragmentR
         }
     }
 
-    private fun handleState(placesState: LoginState) {
+    private fun handleState(placesState: RegistrationState) {
         placesState.error?.let {
             Toast.makeText(requireContext(), requireContext().getString(it), Toast.LENGTH_SHORT)
                 .show()
